@@ -7,24 +7,13 @@
 	<script src="script.js"></script>
 </head>
 <body>
-
-<h1>jQuery Uploads</h1>
-
-<form action="#" enctype="multipart/form-data" method="post">
-	<ul>
-		<li>
-			<label for="name">Name:</label>
-			<input type="text" name="name" id="name" multiple>
-		</li>
-
-		<li>
-			<label for="file_upload">File:</label>
-			<input type="file" name="file_upload" id="file_upload" multiple>
-		</li>
-
-		<li><input class="button green" type="submit" name="submit" value="Submit Content"></li>
-	</ul>
-</form>
-
+    <h1>jQuery Uploads</h1>
+    <form enctype="multipart/form-data" method="post">
+        <div>
+            <div><label for="file_upload">File:</label></div>
+            <div><input type="file" name="file_upload" id="file_upload" /></div>
+        </div>
+        <input type="submit" name="submit" value="Upload file" />
+    </form>
 </body>
 </html>
